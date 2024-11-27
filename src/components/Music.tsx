@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-
+import music from '../assets/audio.mp3';
 const Music: React.FC = () => {
     const [isPlaying, setIsPlaying] = useState(false);
     const audioRef = useRef<HTMLAudioElement>(null);
@@ -21,7 +21,7 @@ const Music: React.FC = () => {
             {/* Audio Element */}
             <audio
                 ref={audioRef}
-                src="/audio.mp3"
+                src={music}
                 loop={true}
             />
 

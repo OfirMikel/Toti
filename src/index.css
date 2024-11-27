@@ -16,6 +16,7 @@
 
 .headline {
     text-align: center;
+    z-index: 10;
     text-shadow: black 1px 1px, lightcoral 3px 3px;
 }
 
