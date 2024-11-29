@@ -21,9 +21,9 @@ function App() {
     const { swipeDirection, swipeDistance } = useSwipe(75);
     useEffect(() => {
         if (swipeDirection === 'right') {
-            setImage(prev => prev === 20 ? 1 : prev + 1);
-        } else if (swipeDirection === 'left') {
             setImage(prev => prev === 1 ? 20 : prev - 1);
+        } else if (swipeDirection === 'left') {
+            setImage(prev => prev === 20 ? 1 : prev + 1);
         }
     }, [swipeDirection, swipeDistance]);
 
