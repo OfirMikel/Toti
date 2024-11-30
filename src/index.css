@@ -50,10 +50,10 @@
 
 .love-button {
     background: linear-gradient(45deg, #ff6b6b, #ff8e8e, #ffb6c1);
-    margin-top: 2rem;
     z-index: 10;
     border: none;
     border-radius: 2rem;
+    margin-bottom: 1rem;
     color: white;
     padding: 0.8rem 1.5rem;
     font-size: 2rem;
@@ -99,7 +99,7 @@
     padding: 1rem;
     background: white;
     width: 80dvw;
-    height: 70dvh;
+    height: 60dvh;
     border-radius: 3rem;
     display: flex;
     justify-content: center;
@@ -130,7 +130,7 @@
 .images-page {
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: space-between;
     align-items: center;
     position: absolute;
     top: 0;
